@@ -10,7 +10,8 @@ function AboutMe(props) {
                         <p><strong>Личная информация</strong></p>
                         <ul>
                             <li><strong>Возраст: </strong> 22 года</li>
-                            <li><strong>Возраст: </strong> Тольятти ( Готов к переезду )</li>
+                            <li><strong>Место проживания: </strong> Тольятти ( Готов к переезду )</li>
+                            <li><strong>Текущая деятельность: </strong>Обучение в магистратуре по направлению "Менджмент"</li>
                         </ul>
                     </li>
                     <li className="about__feat">
@@ -59,6 +60,12 @@ function AboutMe(props) {
                             </ul>
                         </li>
                        
+                        </ul>
+                    </li>
+                    <li className="about__self">
+                        <p><strong>Желаемая заработная плата</strong></p>
+                        <ul >
+                            <li>150 000 т.р.</li>
                         </ul>
                     </li>
                     

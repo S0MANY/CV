@@ -43,6 +43,7 @@ a:visited{
 a:hover{
   transition: 0.5s;
   color: red;
+  border-bottom: 1px solid red;
 }
 
 main{
@@ -123,6 +124,7 @@ header img{
   color: whitesmoke;
   transition: 0.5s;
   color: red;
+  border-bottom: 1px solid red;
 }
 
 .avatar {
@@ -136,14 +138,14 @@ header img{
 
 .avatar img{
   height: 350px;
-  width: 250px;
+  width: 200px;
   border-radius: 10px;
   box-shadow: 0 0 10px 1px;
 }
 
 .avatar.dark img{
   height: 350px;
-  width: 250px;
+  width: 200px;
   border-radius: 10px;
   box-shadow: 0 0 10px 1px  ;
 }
@@ -212,6 +214,7 @@ header img{
   grid-row: 2/3;
 }
 
+
 .education .list {
   padding-inline-start: 80px;
 }
@@ -245,6 +248,130 @@ header img{
   list-style:none;
 }
 
+.itGrad {
+  list-style:circle;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.showModal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  border: 1px solid black;
+  max-width: 220px;
+  transition: 0.5s;
+}
+
+.showModal.dark{
+  border-color: whitesmoke;
+}
+
+.showModal:hover{
+  background-color: black;
+  color: whitesmoke;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.showModal.dark:hover{
+  background-color: whitesmoke;
+  color: black;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+
+/* modal */
+
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 5;
+  transition: 0.5s;
+}
+
+.modal.dark > div{
+  border-color: whitesmoke;
+}
+
+.modal__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 840px;
+  width: 1000px;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.modal__box img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.modal__box img:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.modal__slider{
+  
+  width: 80%;
+}
+.modal__close {
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+  width: 80%;
+  cursor: pointer;
+}
+
+
+.swiper-slide{
+  display: flex;
+  max-height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.swiper-button-prev , .swiper-button-next {
+  color: black;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.swiper-button-prev.dark , .swiper-button-next.dark {
+  color: whitesmoke;
+  width: 60px;
+  height: 60px;
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
 
 
 
