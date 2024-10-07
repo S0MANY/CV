@@ -23,6 +23,12 @@ function Skills(props) {
                             <li>SQL</li>
                         </ul>
                     </li>
+                    <li className="type">
+                        <p><strong>Helpers:</strong></p>
+                        <ul className="skill">
+                            <li>Github</li>
+                        </ul>
+                    </li>
                 </ul>
                 
                 
