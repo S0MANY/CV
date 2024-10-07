@@ -25,15 +25,15 @@ function Education(props) {
                     </li>
                     <li>
                         <p><strong>HTML, CSS</strong></p>
-                        <p><a href="https://stepik.org/course/120081/promo" target="_blanck">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/120081/promo" target="_blank">Сслыка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>Java Script</strong></p>
-                        <p><a href="https://stepik.org/course/114165/?search=5536140066" target="_blanck">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/114165/?search=5536140066" target="_blank">Сслыка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>React</strong></p>
-                        <p><a href="https://stepik.org/course/114197/promo?search=5536140067" target="_blanck">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/114197/promo?search=5536140067" target="_blank">Сслыка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>Python</strong></p>

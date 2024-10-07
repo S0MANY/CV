@@ -13,7 +13,7 @@ function Experience(props) {
                             <li>Java Script</li>
                             <li>Swiper</li>
                         </ul>
-                        <p className="link"><a href="https://s0many.github.io/Catalog_element/" target="_blanck">Ссылка</a></p>
+                        <p className="link"><a href="https://s0many.github.io/Catalog_element/" target="_blank">Ссылка</a></p>
                     </li>
                     <li>
                         <p><strong>Карточка товара</strong></p>
@@ -23,7 +23,7 @@ function Experience(props) {
                             <li>React приложение</li>
                             <li>Работа с готовым API</li>
                         </ul>
-                        <p className="link"><a href="https://s0many.github.io/fortnite_store_app/" target="_blanck">Ссылка</a></p>
+                        <p className="link"><a href="https://s0many.github.io/fortnite_store_app/" target="_blank">Ссылка</a></p>
                     </li>
                     <li>
                         <p><strong>Кулинарный сайт</strong></p>
@@ -35,7 +35,7 @@ function Experience(props) {
                             <li>Работа с готовым API</li>
                             <li>Swiper</li>
                         </ul>
-                        <p className="link"><a href="https://s0many.github.io/Cooking_react_app/" target="_blanck">Ссылка</a></p>
+                        <p className="link"><a href="https://s0many.github.io/Cooking_react_app/" target="_blank">Ссылка</a></p>
                     </li>
             
                 </ul>
