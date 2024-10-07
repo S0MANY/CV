@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.6c269e85.css",
+    "main.css": "/CV/static/css/main.c0319f0c.css",
     "main.js": "/CV/static/js/main.a275431c.js",
     "static/media/diplom1.2.jpg": "/CV/static/media/diplom1.2.3be82d4934400bdf9446.jpg",
     "static/media/diplom1.jpg": "/CV/static/media/diplom1.d37a15e91e0084ba2a4d.jpg",
     "static/media/ava.jpg": "/CV/static/media/ava.911f8360405e0a7b5b3a.jpg",
     "index.html": "/CV/index.html",
-    "main.6c269e85.css.map": "/CV/static/css/main.6c269e85.css.map",
+    "main.c0319f0c.css.map": "/CV/static/css/main.c0319f0c.css.map",
     "main.a275431c.js.map": "/CV/static/js/main.a275431c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c269e85.css",
+    "static/css/main.c0319f0c.css",
     "static/js/main.a275431c.js"
   ]
 }
