@@ -77,6 +77,8 @@ header.dark {
 }
 
 header img{
+  position: relative;
+  z-index: 3;
   padding-right: 10vw;
   cursor: pointer;
 }
