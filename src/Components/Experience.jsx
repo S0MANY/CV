@@ -16,10 +16,10 @@ function Experience(props) {
                         <p className="link"><a href="https://s0many.github.io/Catalog_element/" target="_blank">Ссылка</a></p>
                     </li>
                     <li>
-                        <p><strong>Карточка товара</strong></p>
+                        <p><strong>Ветрина товаров</strong></p>
                         <p>Реализованы</p>
                         <ul>
-                            <li>Верстка</li>
+                            <li>Верстка ( Desktop only )</li>
                             <li>React приложение</li>
                             <li>Работа с готовым API</li>
                         </ul>
@@ -29,7 +29,7 @@ function Experience(props) {
                         <p><strong>Кулинарный сайт</strong></p>
                         <p>Реализованы</p>
                         <ul>
-                            <li>Верстка</li>
+                            <li>Верстка ( Desktop only )</li>
                             <li>React приложение</li>
                             <li>Роутинг</li>
                             <li>Работа с готовым API</li>

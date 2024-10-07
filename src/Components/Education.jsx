@@ -41,7 +41,7 @@ function Education(props) {
                     </li>
                     <li>
                         <p><strong>FastAip | SQL</strong></p>
-                        <p>Самообучение</p>
+                        <p>Самообучение ( В процессе )</p>
                     </li>
                 </ul>
             </div>
