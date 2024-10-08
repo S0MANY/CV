@@ -1,7 +1,8 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 import { useEffect } from 'react'
-import diplomFace from "../img/diplom1.jpg"
-import diplomBack from "../img/diplom1.2.jpg"
+// import diplomFace from "../img/diplom1.jpg"
+// import diplomBack from "../img/diplom1.2.jpg"
+import fullDiplom from "../img/full_diplom.jpg"
 
 function Modal(props){
 
@@ -20,15 +21,15 @@ function Modal(props){
     useEffect(() => {
         // eslint-disable-next-line
         const swiper = new Swiper(".modal__slider", {
-            effect: 'flip',     
-            grabCursor: true, 
-            speed: 1000,
+            // effect: 'flip',     
+            // grabCursor: true, 
+            // speed: 1000,
             direction: 'horizontal',
             loop: true,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
         });
     }, []);
    
@@ -40,13 +41,20 @@ function Modal(props){
                     <div className="modal__close">
                         <img onClick={() => props.setModal(false)} src={`https://img.icons8.com/?size=50&id=46&format=png&color=${props.theme === "dark" ? "EDE9DC" : "000000"}`} alt="close btn" />
                     </div>
-                    <div className="modal__slider swiper">
+
+                    {/* swiper */}
+
+                    {/* <div className="modal__slider swiper">
                         <div className="swiper-wrapper">
                             <div className="swiper-slide"><img src={diplomFace} alt="Diplom face" /></div>
                             <div className="swiper-slide"><img  src={diplomBack} alt="Diplom back" /></div>
                         </div>
                         <div className={`swiper-button-prev ${props.theme === "dark" ? "dark" : ""} `}></div>
                         <div className={`swiper-button-next ${props.theme === "dark" ? "dark" : ""}`}></div>
+                    </div> */}
+
+                    <div className="modal__img">
+                        <img src={fullDiplom} alt="Diplom" />
                     </div>
                 </div>
             </div>

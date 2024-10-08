@@ -1,4 +1,6 @@
 import ava from "../img/ava.jpg"
+
+
 function Avatar(props){
     return(
         <>

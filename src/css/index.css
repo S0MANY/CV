@@ -7,6 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: 0.5s;
+  scrollbar-width: none;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Скрывает полосу прокрутки */
 }
 
 body.dark{ 
@@ -255,7 +261,20 @@ header img{
   justify-content: space-evenly;
 }
 
-.showModal{
+/* .showModal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  border: 1px solid black;
+  max-width: 220px;
+  transition: 0.5s;
+} */
+
+.btn{
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,11 +286,36 @@ header img{
   transition: 0.5s;
 }
 
-.showModal.dark{
+.btn.dark {
   border-color: whitesmoke;
 }
 
-.showModal:hover{
+.btn.small{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid black;
+  max-width: 180px;
+  transition: 0.5s;
+}
+
+.btn.small.dark{
+  border: 1px solid whitesmoke;
+}
+
+
+
+
+
+/* .showModal.dark{
+  border-color: whitesmoke;
+} */
+
+/* .showModal:hover{
   background-color: black;
   color: whitesmoke;
   opacity: 0.4;
@@ -283,6 +327,46 @@ header img{
   color: black;
   opacity: 0.4;
   transition: 0.5s;
+} */
+
+.btn:hover{
+  background-color: black;
+  color: whitesmoke;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.btn:hover a{
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+.btn.dark:hover{
+  background-color: whitesmoke;
+  color: black;
+  
+  transition: 0.5s;
+}
+
+.btn.dark:hover a{
+  background-color: transparent;
+  color: black;
+  border: transparent;
+  transition: 0.5s;
+}
+
+.btn a{
+  border: transparent;
+}
+
+.btn.small.dark  a{
+  color: black;
+  border: transparent;
+}
+
+.btn.small.dark:hover  a{
+  color: black;
+  border: transparent;
 }
 
 
@@ -313,14 +397,18 @@ header img{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 840px;
-  width: 1000px;
+  height: 700px;
+  width: 900px;
   border: 1px solid black;
   border-radius: 15px;
   transition: 0.5s;
 }
 
-.modal__box::after {
+.modal__box img:hover{
+  cursor: pointer;
+}
+
+/* .modal__box::after {
   position: absolute;
   content: "Свайпай в сторону";
   color: whitesmoke;
@@ -335,11 +423,12 @@ header img{
   top: 100px;
   left: calc(50% - 400px);
   box-shadow: 0 0 10px whitesmoke;
-}
+} */
 
 .modal__box img {
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 700px;
+  max-height: 700px;
+  transition: 0.5s;
 }
 
 .modal__box img:hover {

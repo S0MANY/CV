@@ -1,6 +1,8 @@
 
-
+import { BtnModal } from "./BtnModal"
 function Education(props) {
+
+    
     return (
         <>
             <div className={`education ${props.theme === "dark" ? "dark" : ""}`}>
@@ -17,7 +19,8 @@ function Education(props) {
                                         направлению "Алгоритмизация и программирование"
                                     </p>
                                     <div>
-                                        <p onClick={() => props.setModal(true)} className={`showModal ${props.theme === "dark" ? "dark" : ""}`}>Посмотртеть диплом</p> 
+                                        <BtnModal theme={props.theme} action={props.setModal} text={"Посмотртеть диплом"}/>
+                                        {/* <p onClick={() => props.setModal(true)} className={`showModal ${props.theme === "dark" ? "dark" : ""}`}>Посмотртеть диплом</p>  */}
                                     </div>
                                 </div>
                             </li>
@@ -25,15 +28,15 @@ function Education(props) {
                     </li>
                     <li>
                         <p><strong>HTML, CSS</strong></p>
-                        <p><a href="https://stepik.org/course/120081/promo" target="_blank">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/120081/promo" target="_blank" rel="noopener noreferrer">Сслыка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>Java Script</strong></p>
-                        <p><a href="https://stepik.org/course/114165/?search=5536140066" target="_blank">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/114165/?search=5536140066" target="_blank" rel="noopener noreferrer">Сслыка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>React</strong></p>
-                        <p><a href="https://stepik.org/course/114197/promo?search=5536140067" target="_blank">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/114197/promo?search=5536140067" target="_blank" rel="noopener noreferrer">Сслыка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>Python</strong></p>

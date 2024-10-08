@@ -1,3 +1,4 @@
+import { BtnLink } from "./BtnLink"
 
 function Experience(props) {
     return (
@@ -13,7 +14,8 @@ function Experience(props) {
                             <li>Java Script</li>
                             <li>Swiper</li>
                         </ul>
-                        <p className="link"><a href="https://s0many.github.io/Catalog_element/" target="_blank">Ссылка</a></p>
+                        <BtnLink text={"Перейти на сайт"} link={"https://s0many.github.io/Catalog_element/"} size={"s"} theme={props.theme}/>
+                        {/* <p className="link"><a href="https://s0many.github.io/Catalog_element/" target="_blank">Ссылка</a></p> */}
                     </li>
                     <li>
                         <p><strong>Ветрина товаров</strong></p>
@@ -23,7 +25,8 @@ function Experience(props) {
                             <li>React приложение</li>
                             <li>Работа с готовым API</li>
                         </ul>
-                        <p className="link"><a href="https://s0many.github.io/fortnite_store_app/" target="_blank">Ссылка</a></p>
+                        <BtnLink text={"Перейти на сайт"} link={"https://s0many.github.io/fortnite_store_app/"} size={"s"} theme={props.theme}/>
+                        {/* <p className="link"><a href="https://s0many.github.io/fortnite_store_app/" target="_blank">Ссылка</a></p> */}
                     </li>
                     <li>
                         <p><strong>Кулинарный сайт</strong></p>
@@ -35,7 +38,8 @@ function Experience(props) {
                             <li>Работа с готовым API</li>
                             <li>Swiper</li>
                         </ul>
-                        <p className="link"><a href="https://s0many.github.io/Cooking_react_app/" target="_blank">Ссылка</a></p>
+                        <BtnLink text={"Перейти на сайт"} link={"https://s0many.github.io/Cooking_react_app/"} size={"s"} theme={props.theme}/>
+                        {/* <p className="link"><a href="https://s0many.github.io/Cooking_react_app/" target="_blank">Ссылка</a></p> */}
                     </li>
             
                 </ul>

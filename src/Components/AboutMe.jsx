@@ -62,12 +62,6 @@ function AboutMe(props) {
                        
                         </ul>
                     </li>
-                    <li className="about__self">
-                        <p><strong>Желаемая заработная плата</strong></p>
-                        <ul >
-                            <li>150 000 т.р.</li>
-                        </ul>
-                    </li>
                     
                 </ul>
             </div>
