@@ -4,7 +4,7 @@ function Experience(props) {
     return (
         <>
             <div className={`experience ${props.theme === "dark" ? "dark" : ""}`}>
-                <h2>Горовые проекты</h2>
+                <h2>Готовые проекты</h2>
                 <ul>
                     <li>
                         <p><strong>Карточка товара</strong></p>
@@ -18,7 +18,7 @@ function Experience(props) {
                         {/* <p className="link"><a href="https://s0many.github.io/Catalog_element/" target="_blank">Ссылка</a></p> */}
                     </li>
                     <li>
-                        <p><strong>Ветрина товаров</strong></p>
+                        <p><strong>Витрина товаров</strong></p>
                         <p>Реализованы</p>
                         <ul>
                             <li>Верстка ( Desktop only )</li>

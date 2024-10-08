@@ -250,6 +250,10 @@ header img{
   grid-row: 3;
 }
 
+.about li {
+  margin-bottom: 10px;
+}
+
 .about .sub {
   list-style:none;
 }
@@ -288,6 +292,11 @@ header img{
 
 .btn.dark {
   border-color: whitesmoke;
+  color: whitesmoke;
+}
+
+.btn.dark a{
+  color: whitesmoke;
 }
 
 .btn.small{

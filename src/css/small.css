@@ -88,6 +88,8 @@
       }
       
       .contacts {
+        text-align: center;
+        padding: 0 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -130,7 +132,6 @@
       }
 
       .skills.dark {
-        
         margin-top: 30px;
         border-top: 2px solid whitesmoke;
         border-right: 0px ;
@@ -152,6 +153,16 @@
         align-items: center;
         margin-top: 30px;
         border-top: 2px solid black;
+      }
+
+      .subList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding: 0 10px;
       }
       
       .education .list {
@@ -181,6 +192,10 @@
       }
       .experience.dark{
         border-right: 0px ;
+      }
+
+      .btn.dark.small a{
+        color: whitesmoke
       }
       
       .experience ul {
@@ -214,7 +229,10 @@
         align-items: center;
         margin: 0;
         padding: 0;
+        padding-inline-start: 0px
       }
+
+      
 
       .about ul li{
         display: flex;

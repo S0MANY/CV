@@ -9,8 +9,8 @@ function Education(props) {
                 <h2>Образование</h2>
                 <ul className="list">
                     <li>
-                        <p><strong>КНИТУ (2020-2024)</strong></p>
-                        <ul>
+                        <p><strong>КНИТУ г. Казань (2020-2024)</strong></p>
+                        <ul className="subList">
                             <li>Технология и организация общественного питания</li>
                             <li>
                                 <div className="ifGrad">
@@ -19,7 +19,7 @@ function Education(props) {
                                         направлению "Алгоритмизация и программирование"
                                     </p>
                                     <div>
-                                        <BtnModal theme={props.theme} action={props.setModal} text={"Посмотртеть диплом"}/>
+                                        <BtnModal theme={props.theme} action={props.setModal} text={"Посмотреть диплом"}/>
                                         {/* <p onClick={() => props.setModal(true)} className={`showModal ${props.theme === "dark" ? "dark" : ""}`}>Посмотртеть диплом</p>  */}
                                     </div>
                                 </div>
@@ -28,15 +28,15 @@ function Education(props) {
                     </li>
                     <li>
                         <p><strong>HTML, CSS</strong></p>
-                        <p><a href="https://stepik.org/course/120081/promo" target="_blank" rel="noopener noreferrer">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/120081/promo" target="_blank" rel="noopener noreferrer">Ссылка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>Java Script</strong></p>
-                        <p><a href="https://stepik.org/course/114165/?search=5536140066" target="_blank" rel="noopener noreferrer">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/114165/?search=5536140066" target="_blank" rel="noopener noreferrer">Ссылка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>React</strong></p>
-                        <p><a href="https://stepik.org/course/114197/promo?search=5536140067" target="_blank" rel="noopener noreferrer">Сслыка на курс</a></p>
+                        <p><a href="https://stepik.org/course/114197/promo?search=5536140067" target="_blank" rel="noopener noreferrer">Ссылка на курс</a></p>
                     </li>
                     <li>
                         <p><strong>Python</strong></p>

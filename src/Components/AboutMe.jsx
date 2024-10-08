@@ -11,19 +11,26 @@ function AboutMe(props) {
                         <ul>
                             <li><strong>Возраст: </strong> 22 года</li>
                             <li><strong>Место проживания: </strong> Тольятти ( Готов к переезду )</li>
-                            <li><strong>Текущая деятельность: </strong>Обучение в магистратуре по направлению "Менджмент"</li>
+                            <li><strong>Текущая деятельность: </strong>Обучение в магистратуре ПВГУС по направлению "Менеджмент"  г. Тольятти</li>
                         </ul>
                     </li>
                     <li className="about__feat">
                         <p><strong>Личные качества</strong></p>
                         <ul>
-                            <li>Ответсвенность</li>
+                            <li>Ответственность</li>
                             <li>Желание работать в команде</li>
+                            <li>Охотное восприниятие новой информации</li>
+                            <li>
+                                Готов восполнять недостающие навыки:
+                                <ul className="sub">
+                                    <li>- Самостоятельно</li>
+                                    <li>- С помощью наставника</li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li className="about__educ">
-                        <p><strong>Образование и опыт</strong></p>
-                        
+                        <p><strong>Опыт работы</strong></p>
                         <ul>
                             <li>
                                 <p><strong>Начало карьеры:</strong> Программирование на языке Python</p>
@@ -37,32 +44,9 @@ function AboutMe(props) {
                                     <li>- Изучение Frontend технологий</li>
                                     <li>- Элементы Backend</li>
                                 </ul>
-                            </li>
-                            
+                            </li>                    
                         </ul>
-                    </li>
-                    <li className="about__self">
-                        <p><strong>Личные качества</strong></p>
-                        <ul >
-                            <li>Ответсвенность</li>
-                            <li>Желание работать в команде</li>
-                        </ul>
-                    </li>
-                    <li className="about__selffeat">
-                        <p><strong>Личностные качества</strong></p>
-                        <ul>
-                        <li>Охотно воспринимаю новую информацию</li>
-                        <li>
-                            <p>Готов восполнять недостающие навыки:</p>
-                            <ul className="sub">
-                                <li>- Самостоятельно</li>
-                                <li>- С помощью наставника</li>
-                            </ul>
-                        </li>
-                       
-                        </ul>
-                    </li>
-                    
+                    </li> 
                 </ul>
             </div>
             
