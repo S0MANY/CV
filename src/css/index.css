@@ -184,6 +184,9 @@ header img{
 }
 
 .contacts__info{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
   margin-bottom: 25px;
   font-size: 1.3rem;
 }

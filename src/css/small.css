@@ -114,8 +114,11 @@
       }
       
       .contacts__info{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
         margin-bottom: 25px;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
       }
       
       .contacts__info h2 {
